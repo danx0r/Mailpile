@@ -37,14 +37,16 @@ nav .icon-donate {
 }
 
 #container {
-    column-count: 2;
+    width: 100%;
 }   
 
-#sidebar {
+#sidebar {  
     display: inline-block;
+    background-color: #CCC;  
     width: 150px;
-    vertical-align: top;
-    background-color: #CCC;    
+    float: left;
+    height: 100%;
+    bottom: 0px;
 }
 
 #sidebar a {
@@ -77,11 +79,13 @@ nav .icon-donate {
     margin-top: 10px;
 }
 
-#content {
-    display: inline-block;
-    vertical-align: top;    
+#content {   
     margin: 0px;
     padding: 0px;   
+    width: 100%;
+}
+
+#content div {
 }
 
 #sub-navigation {
