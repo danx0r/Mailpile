@@ -61,6 +61,17 @@ text {
                 <tr class="result {even_odd} {.section is_editable}is_editable{.end}
                                   {tag_classes}" data-state="normal">
                         {.section message}
+--------RAW HEADERS----------
+<xmp>Date: {headers.Date}</xmp>
+<xmp>From: {headers.From}</xmp>
+<xmp>To: {headers.To}</xmp>
+<xmp>Cc: {headers.Cc}</xmp>
+<xmp>Subject: {headers.Subject}</xmp>
+--------RAW SUMMARY----------
+<xmp>Date: {summary.date}</xmp>
+<xmp>From: {summary.from}</xmp>
+<xmp>Subject: {summary.subject}</xmp>
+---------------------------------
                         <td class="message-body" colspan="2">
                             {.section editing_string}
                                 <textarea name='@edit_{idx}' cols="72" rows="20">{@}</textarea>
